@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App Landing Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div style="display: flex;width: 100%;justify-content: center;align-items: center;flex-direction: column;gap: 30px;">
+        <button id="loadWeatherApp">Load Weather App</button>
+        <iframe id="weatherAppFrame" ></iframe>
+        <div id="weatherSummary" style="display:none;">
+            <p id="location"></p>
+            <p id="temperature"></p>
+            <p id="feelsLike"></p>
+            <p id="tempMin"></p>
+            <p id="tempMax"></p>
+            <p id="pressure"></p>
+            <p id="humidity"></p>
+            <p id="windSpeed"></p>
+            <p id="windDirection"></p>
+            <p id="weatherStatus"></p>
+            <img id="weatherIcon" src="" alt="Weather Icon" />
+            <p id="clouds"></p>
+            <p id="lastUpdated"></p>
+        </div>
+        
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+
+
