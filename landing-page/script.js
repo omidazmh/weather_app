@@ -1,14 +1,11 @@
-// Function to load the React app inside the iframe
 document.getElementById('loadWeatherApp').addEventListener('click', function() {
     const iframe = document.getElementById('weatherAppFrame');
-    iframe.src = "http://localhost:3000";  // آدرس محلی که اپلیکیشن React در آن اجرا می‌شود
+    iframe.src = "http://localhost:3000";  
     iframe.style.display = "block";
 });
 
-// Listen for messages from the iframe (React App)
 window.addEventListener('message', function(event) {
-    // For security reasons, it's good to check the origin of the message
-    // if (event.origin !== 'http://expected-origin.com') return;
+
 
     const data = event.data;
     if (data.temperature && data.weather) {
@@ -26,7 +23,6 @@ window.addEventListener('message', function(event) {
         document.getElementById('clouds').textContent = `Clouds: ${data.clouds} %`;
         document.getElementById('lastUpdated').textContent = `Last updated: ${data.lastUpdated}`;
 
-        // Display the weather summary section
         document.getElementById('weatherSummary').style.display = 'block';
     }
 });
