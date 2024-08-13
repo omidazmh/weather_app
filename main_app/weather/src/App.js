@@ -126,9 +126,9 @@ function App() {
               <div>
                 <a onClick={toggleExpand} >
                 {isExpanded ? (
-                  <span style={{cursor:'pointer'}} class="material-symbols-outlined">keyboard_arrow_up</span>
+                  <span style={{cursor:'pointer'}} className="material-symbols-outlined">keyboard_arrow_up</span>
                 ) : (
-                  <span style={{cursor:'pointer'}} class="material-symbols-outlined">keyboard_arrow_down</span>
+                  <span style={{cursor:'pointer'}} className="material-symbols-outlined">keyboard_arrow_down</span>
                 )}
                 </a>
               </div>
