@@ -1,14 +1,14 @@
-[debug] [2024-08-12T17:55:00.831Z] ----------------------------------------------------------------------
-[debug] [2024-08-12T17:55:00.835Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\omid\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
-[debug] [2024-08-12T17:55:00.836Z] CLI Version:   13.15.1
-[debug] [2024-08-12T17:55:00.836Z] Platform:      win32
-[debug] [2024-08-12T17:55:00.836Z] Node Version:  v20.15.0
-[debug] [2024-08-12T17:55:00.836Z] Time:          Mon Aug 12 2024 21:25:00 GMT+0330 (وقت عادی ایران)
-[debug] [2024-08-12T17:55:00.837Z] ----------------------------------------------------------------------
+[debug] [2024-08-13T08:11:38.575Z] ----------------------------------------------------------------------
+[debug] [2024-08-13T08:11:38.579Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\omid\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2024-08-13T08:11:38.580Z] CLI Version:   13.15.1
+[debug] [2024-08-13T08:11:38.580Z] Platform:      win32
+[debug] [2024-08-13T08:11:38.580Z] Node Version:  v20.15.0
+[debug] [2024-08-13T08:11:38.580Z] Time:          Tue Aug 13 2024 11:41:38 GMT+0330 (وقت عادی ایران)
+[debug] [2024-08-13T08:11:38.581Z] ----------------------------------------------------------------------
 [debug] 
-[debug] [2024-08-12T17:55:00.841Z] >>> [apiv2][query] GET https://firebase-public.firebaseio.com/cli.json [none]
-[debug] [2024-08-12T17:55:00.910Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
-[debug] [2024-08-12T17:55:00.910Z] > authorizing via signed-in user (omidazm@gmail.com)
+[debug] [2024-08-13T08:11:38.587Z] >>> [apiv2][query] GET https://firebase-public.firebaseio.com/cli.json [none]
+[debug] [2024-08-13T08:11:38.655Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-08-13T08:11:38.655Z] > authorizing via signed-in user (omidazm@gmail.com)
 [info] 
      ######## #### ########  ######## ########     ###     ######  ########
      ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
@@ -20,9 +20,9 @@ You're about to initialize a Firebase project in this directory:
 
   D:\Azure\Weather_App\landing-page
 
-[debug] [2024-08-12T17:55:01.168Z] *** [apiv2] error from fetch(https://firebase-public.firebaseio.com/cli.json, {"headers":{},"method":"GET"}): FetchError: request to https://firebase-public.firebaseio.com/cli.json failed, reason: Client network socket disconnected before secure TLS connection was established
+[debug] [2024-08-13T08:11:38.994Z] *** [apiv2] error from fetch(https://firebase-public.firebaseio.com/cli.json, {"headers":{},"method":"GET"}): FetchError: request to https://firebase-public.firebaseio.com/cli.json failed, reason: Client network socket disconnected before secure TLS connection was established
 [warn] !  Unable to fetch the CLI MOTD and remote config. This is not a fatal error, but may indicate an issue with your network connection. 
-[debug] [2024-08-12T17:55:01.169Z] Failed to fetch MOTD FirebaseError: Failed to make request to https://firebase-public.firebaseio.com/cli.json
+[debug] [2024-08-13T08:11:38.995Z] Failed to fetch MOTD FirebaseError: Failed to make request to https://firebase-public.firebaseio.com/cli.json
 [info] 
 === Project Setup
 [info] 
@@ -30,52 +30,11 @@ You're about to initialize a Firebase project in this directory:
 [info] You can create multiple project aliases by running firebase use --add, 
 [info] but for now we'll just set up a default project.
 [info] 
-[debug] [2024-08-12T17:55:13.540Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
-[debug] [2024-08-12T17:55:14.146Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 403
-[debug] [2024-08-12T17:55:14.147Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
-[debug] [2024-08-12T17:55:14.147Z] Unable to parse JSON: SyntaxError: Unexpected token '<', "<!DOCTYPE "... is not valid JSON
-[debug] [2024-08-12T17:55:14.735Z] FirebaseError: Unable to parse JSON: SyntaxError: Unexpected token '<', "<!DOCTYPE "... is not valid JSON
-    at RetryOperation._fn (C:\Users\omid\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:277:39)
-    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
-[error] 
-[error] Error: Failed to list Firebase projects. See firebase-debug.log for more info.
-[debug] [2024-08-12T17:55:37.662Z] ----------------------------------------------------------------------
-[debug] [2024-08-12T17:55:37.666Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\omid\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
-[debug] [2024-08-12T17:55:37.666Z] CLI Version:   13.15.1
-[debug] [2024-08-12T17:55:37.666Z] Platform:      win32
-[debug] [2024-08-12T17:55:37.667Z] Node Version:  v20.15.0
-[debug] [2024-08-12T17:55:37.667Z] Time:          Mon Aug 12 2024 21:25:37 GMT+0330 (وقت عادی ایران)
-[debug] [2024-08-12T17:55:37.667Z] ----------------------------------------------------------------------
-[debug] 
-[debug] [2024-08-12T17:55:37.673Z] >>> [apiv2][query] GET https://firebase-public.firebaseio.com/cli.json [none]
-[debug] [2024-08-12T17:55:37.745Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
-[debug] [2024-08-12T17:55:37.745Z] > authorizing via signed-in user (omidazm@gmail.com)
-[info] 
-     ######## #### ########  ######## ########     ###     ######  ########
-     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
-     ######    ##  ########  ######   ########  #########  ######  ######
-     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
-     ##       #### ##     ## ######## ########  ##     ##  ######  ########
-
-You're about to initialize a Firebase project in this directory:
-
-  D:\Azure\Weather_App\landing-page
-
-[debug] [2024-08-12T17:55:37.996Z] *** [apiv2] error from fetch(https://firebase-public.firebaseio.com/cli.json, {"headers":{},"method":"GET"}): FetchError: request to https://firebase-public.firebaseio.com/cli.json failed, reason: Client network socket disconnected before secure TLS connection was established
-[warn] !  Unable to fetch the CLI MOTD and remote config. This is not a fatal error, but may indicate an issue with your network connection. 
-[debug] [2024-08-12T17:55:37.997Z] Failed to fetch MOTD FirebaseError: Failed to make request to https://firebase-public.firebaseio.com/cli.json
-[info] 
-=== Project Setup
-[info] 
-[info] First, let's associate this project directory with a Firebase project.
-[info] You can create multiple project aliases by running firebase use --add, 
-[info] but for now we'll just set up a default project.
-[info] 
-[debug] [2024-08-12T17:55:44.547Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
-[debug] [2024-08-12T17:55:45.135Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 403
-[debug] [2024-08-12T17:55:45.135Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
-[debug] [2024-08-12T17:55:45.135Z] Unable to parse JSON: SyntaxError: Unexpected token '<', "<!DOCTYPE "... is not valid JSON
-[debug] [2024-08-12T17:55:45.522Z] FirebaseError: Unable to parse JSON: SyntaxError: Unexpected token '<', "<!DOCTYPE "... is not valid JSON
+[debug] [2024-08-13T08:11:48.796Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
+[debug] [2024-08-13T08:11:49.294Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 403
+[debug] [2024-08-13T08:11:49.294Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
+[debug] [2024-08-13T08:11:49.294Z] Unable to parse JSON: SyntaxError: Unexpected token '<', "<!DOCTYPE "... is not valid JSON
+[debug] [2024-08-13T08:11:49.752Z] FirebaseError: Unable to parse JSON: SyntaxError: Unexpected token '<', "<!DOCTYPE "... is not valid JSON
     at RetryOperation._fn (C:\Users\omid\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:277:39)
     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
 [error] 

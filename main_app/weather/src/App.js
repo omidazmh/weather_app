@@ -40,7 +40,6 @@ function App() {
           }
         });
 
-        // Send weather data to the parent page (Landing Page)
         if (window.parent) {
           window.parent.postMessage(
             {
@@ -67,7 +66,6 @@ function App() {
       }
     };
 
-    // Get the user's location using Geolocation API
     if (navigator.geolocation) {
       navigator.geolocation.getCurrentPosition(
         (position) => {
