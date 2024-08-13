@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200');
+
+body {
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+.App-header {
+  background: linear-gradient(115deg, #ffffff, #d4dfed);  padding: 20px;
+  color: #1c1827;
+}
+.main_info{
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(115deg, #62cff4, #2c67f2);
+  padding: 20px;
+  color: white;
+  >div>p>img{
+    width: 50px;
+  }
+  >div:nth-child(2){
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: start;
+    justify-content: center;
+    gap: 5px;
+    >p{
+      margin: 0;
+      opacity: 0.9;
+    }
+    >p:nth-child(2){
+      font-weight: bold;
+      font-size: 64px;
+      opacity: 1;
+    }
+  }
+}
+.HWP_info{
+  background: linear-gradient(115deg, #ffffff, #d4dfed);  display: flex;
+  gap: 10px;
+  padding: 20px;
+  align-items: center;
+  justify-content: center;
+  >div{
+    color: #5d5d5d;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-items: center;
+    gap: 2px;
+    >span>img{
+      width: 18px;
+    }
+    >p{
+      font-size: small;
+      margin: 0;
+    }
+  }
+}
